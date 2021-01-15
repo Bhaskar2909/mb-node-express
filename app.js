@@ -19,7 +19,7 @@ app.get('/about', (req, res) => {
   })
 
   app.get('/help/:topic', (req, res) => {
-    res.send(`your request onn the help page ${req.params.topic}`)
+    res.send(`your request on the help page ${req.params.topic}`)
   })
   
 
